@@ -4,10 +4,8 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
-  color: #333;
-  font-family: "Noto Serif Myanmar", serif;
-  font-weight: 400;
-  font-style: normal;
+  color: #0e0d0d;
+ 
   
 }
 
@@ -19,9 +17,12 @@
   
 }
 .navbar{
+  font-family: "Noto Serif Myanmar", serif;
+  font-weight: 700;
+  font-style: normal;
   max-width: 600px;
    display: flex;
-   line-height: 3rem;
+   line-height: 2rem;
     justify-content: space-around;
   /* background-color: #a8fcff; */
 }
@@ -46,4 +47,49 @@
 }
 .home{
   padding: 10px;
+}
+.profile-preview{
+ margin: 10px 0;
+  padding: 15px;
+  
+}
+.profile-preview:hover{
+  box-shadow: 0 0 20px rgba(68, 20, 20, 0.2);
+  border-radius: 10px;
+}
+.profile-preview h2 {
+  color: #ff3c3c;
+  margin-bottom: 8px;
+}
+.create{
+  max-width: 400px;
+  font-size: 1.2rem;
+  margin: 0 auto;
+  text-align: center;
+  
+}
+.create h2{
+  margin-bottom: 30px;
+}
+.create label{
+  text-align: left;
+  display: block;
+}
+.create  textarea, input,select{
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 5px;
+
+}
+.create button{
+  padding: 10px;
+  font-size: 14px;
+  background: #ff2f55;
+  border: none;
+  border-radius: 10px;
+  justify-items: center;
+  color: #fff;
+  cursor: pointer;
+  
 }

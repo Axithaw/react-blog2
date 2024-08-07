@@ -1,0 +1,136 @@
+{
+  "blogs": [
+    {
+      "title": "အနော်ရထာ",
+      "body": "အနော်ရထာမင်းစော သည် ပထမမြန်မာနိုင်ငံတော်ကို တစ်စုတစ်စည်းတည်းဖြစ်ရန်ပထမဆုံးကြိုးပမ်းထူထောင်ခဲ့သူ ဖြစ်သည်။ ",
+      "author": "ခရစ်",
+      "id": "1"
+    },
+    {
+      "title": "ကျန်စစ်သား",
+      "body": "အနော်ရထာမင်းစော သည် ပထမမြန်မာနိုင်ငံတော်ကို တစ်စုတစ်စည်းတည်းဖြစ်ရန်ပထမဆုံးကြိုးပမ်းထူထောင်ခဲ့သူ ဖြစ်သည်။ ",
+      "author": "သုတ",
+      "id": "2"
+    },
+    {
+      "id": "fed2",
+      "title": "electricity",
+      "body": "Electricity is a type of energy that consists of the movement of electrons between two points when there is a potential difference between them, making it possible to generate what is known as an electric current.",
+      "author": "chris"
+    },
+    {
+      "id": "9985",
+      "title": "electricity",
+      "body": "Electricity is a type of energy that consists of the movement of electrons between two points when there is a potential difference between them, making it possible to generate what is known as an electric current.",
+      "author": "chris"
+    },
+    {
+      "id": "e70c",
+      "title": "dfasd",
+      "body": "sdfasdfasdfa",
+      "author": "chris"
+    },
+    {
+      "id": "e928",
+      "title": "asdfas",
+      "body": "sfadfa",
+      "author": "mario"
+    },
+    {
+      "id": "01e3",
+      "title": "asdfas",
+      "body": "sfadfa",
+      "author": "mario"
+    },
+    {
+      "id": "78ba",
+      "title": "adsfas",
+      "body": "sdfasdf",
+      "author": "mario"
+    },
+    {
+      "id": "ca71",
+      "title": "adsfas",
+      "body": "sdfasdf",
+      "author": "mario"
+    },
+    {
+      "id": "60ed",
+      "title": "adsfas",
+      "body": "sdfasdf",
+      "author": "mario"
+    },
+    {
+      "id": "314d",
+      "title": "adfa",
+      "body": "asdfa",
+      "author": "mario"
+    },
+    {
+      "id": "4d42",
+      "title": "adfa",
+      "body": "asdfa",
+      "author": "mario"
+    },
+    {
+      "id": "eb0d",
+      "title": "adfa",
+      "body": "asdfa",
+      "author": "mario"
+    },
+    {
+      "id": "f827",
+      "title": "dfad",
+      "body": "asdfas",
+      "author": "mario"
+    },
+    {
+      "id": "bb8d",
+      "title": "dfad",
+      "body": "asdfas",
+      "author": "mario"
+    },
+    {
+      "id": "105c",
+      "title": "dfad",
+      "body": "asdfas",
+      "author": "mario"
+    },
+    {
+      "id": "e559",
+      "title": "dfad",
+      "body": "asdfas",
+      "author": "mario"
+    },
+    {
+      "id": "fd0c",
+      "title": "dfasd",
+      "body": "dfasdfas",
+      "author": "mario"
+    },
+    {
+      "id": "2ded",
+      "title": "dfasd",
+      "body": "dfasdfas",
+      "author": "mario"
+    },
+    {
+      "id": "49de",
+      "title": "dfasd",
+      "body": "dfasdfas",
+      "author": "mario"
+    },
+    {
+      "id": "c631",
+      "title": "dfasd",
+      "body": "dfasdfas",
+      "author": "mario"
+    },
+    {
+      "id": "bad4",
+      "title": "dfasd",
+      "body": "dfasdfas",
+      "author": "mario"
+    }
+  ]
+}

@@ -1,12 +1,12 @@
 import React from 'react'
-
+import {Link} from 'react-router-dom'
 export default function Navbar() {
   return (
     <div className='navbar'>
          <h2> ဘလော့  </h2> 
          <div className='items'> 
-            <a href="/" className='active'> ပင်မမျက်နှာ</a>
-            <a href="/create">ဖန်တီး</a>
+            <Link to="/" className='asa active'> အစ</Link>
+            <Link to="/create" className='fantee'>ဖန်တီး</Link>
          </div>
     </div>
   )

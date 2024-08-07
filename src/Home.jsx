@@ -1,26 +1,23 @@
-import React, { useState } from 'react'
+
+import BlogList from './BlogList';
+import useFetch from './useFetch';
 
 export default function Home() {
     
-    const [name , setName] = useState('စည်သူ')
-    const [count , setCount] = useState(0)
+   const {data:blogs, isPending, error} = useFetch('http://localhost:8000/blogs')
 
-    function clicknow(){
-        setName('သော်ဇင်မောင်')
-        setCount(count + 1)
-        console.log("အခုနှိပ်");
-    }
-    function enteruser(name ){
-        console.log( `အသုံးပြုသူ =  ${name} `)
-    }
-  return (
-    <div>
-        <p> {name}</p>
-        <p>{count}</p>
-        <button onClick={clicknow}> ခုနှိပ်</button>
-        <button onClick={()=>{
-            enteruser('သော်ဇင်မောင်')
-        }}> အသုံးပြုသူ</button>
-        </div>
+   
+
+  return ( 
+       
+             <div className="home">
+                {error && <div>{error}</div>}
+                {isPending && <div>Loading ...</div>}
+                {blogs&& !error && <BlogList blogs ={blogs} title="All Blogs"  />}
+                
+             </div>
+      
+       
+     
   )
 }
